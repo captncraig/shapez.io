@@ -66,7 +66,7 @@ export default {
     // disableUpgradeNotification: true,
     // -----------------------------------------------------------------------------------
     // Makes belts almost infinitely fast
-    //instantBelts: true,
+    // instantBelts: true,
     // -----------------------------------------------------------------------------------
     // Makes item processors almost infinitely fast
     // instantProcessors: true,
