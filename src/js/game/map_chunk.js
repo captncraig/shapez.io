@@ -265,8 +265,11 @@ export class MapChunk {
      * Generates the lower layer "terrain"
      */
     generateLowerLayer() {
-        const rng = new RandomNumberGenerator(this.x + "|" + this.y + "|" + this.root.map.seed);
+        if (globalConfig.debug.emptyMap) {
+            return;
+        }
 
+        const rng = new RandomNumberGenerator(this.x + "|" + this.y + "|" + this.root.map.seed);
         if (this.generatePredefined(rng)) {
             return;
         }

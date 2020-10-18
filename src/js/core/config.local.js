@@ -66,7 +66,7 @@ export default {
     // disableUpgradeNotification: true,
     // -----------------------------------------------------------------------------------
     // Makes belts almost infinitely fast
-    // instantBelts: true,
+    //instantBelts: true,
     // -----------------------------------------------------------------------------------
     // Makes item processors almost infinitely fast
     // instantProcessors: true,
@@ -110,5 +110,7 @@ export default {
     // Disables slow asserts, useful for debugging performance
     // disableSlowAsserts: true,
     // -----------------------------------------------------------------------------------
+    // Disables all natural shape and color patch generation
+    // emptyMap: true,
     /* dev:end */
 };
